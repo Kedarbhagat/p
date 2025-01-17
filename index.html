@@ -1,19 +1,237 @@
-1.
+1.Creating a Virtual Machine
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Creating%20a%20Virtual%20Machine/gsp001.sh
+
+sudo chmod +x gsp001.sh
+
+./gsp001.sh
+
+-----------------------------------------------------------------------------------------------------
+
+2. Google Kubernetes Engine: Qwik Start 
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Google%20Kubernetes%20Engine%20Qwik%20Start/gsp100.sh
+
+sudo chmod +x gsp100.sh
+
+./gsp100.sh
+
+-----------------------------------------------------------------------------------------------------
+
+3. Cloud SQL for MySQL: Qwik Start
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20SQL%20for%20MySQL%20Qwik%20Start/gsp151.sh
+
+sudo chmod +x gsp151.sh
+
+./gsp151.sh
+
+-----------------------------------------------------------------------------------------------------
+
+4. Cloud Storage: Qwik Start - CLI 
+
+export REGION=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Storage%20Qwik%20Start%20-%20CLI%20SDK/gsp074.sh
+
+sudo chmod +x gsp074.sh
+
+./gsp074.sh
+
+---------------------------------------------------------------------------------------------------------
+
+5. VPC Networking Fundamentals
+
+export ZONE_2=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/VPC%20Networking%20Fundamentals/gsp210.sh
+
+sudo chmod +x gsp210.sh
+
+./gsp210.sh
+
+--------------------------------------------------------------------------------------------------------------
+
+6. Introduction to Docker
+
+export REGION=
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Introduction%20to%20Docker/gsp055.sh
+
+sudo chmod +x gsp055.sh
+
+./gsp055.sh
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+7.  Orchestrating the Cloud with Kubernetes 
+
+export ZONE=
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/gsp021.sh
+
+sudo chmod +x gsp021.sh
+
+./gsp021.sh
+
+------------------------------------------------------------------------------------------------------------------
+
+8. Deploying GKE Autopilot Clusters from Cloud Shell
+
+export REGION=us-central1
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploying%20GKE%20Autopilot%20Clusters%20from%20Cloud%20Shell/quicklab.sh
+
+sudo chmod +x quicklab.sh
+
+./quicklab.sh
+
+---------------------------------------------------------------------------------------------------------------
+
+9.  Managing Deployments Using Kubernetes Engine
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Managing%20Deployments%20Using%20Kubernetes%20Engine/gsp053.sh
+
+sudo chmod +x gsp053.sh
+
+./gsp053.sh
+
+---------------------------------------------------------------------------------------------------------------
+
+10. Deploy Kubernetes Load Balancer Service with Terraform 
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Deploy%20Kubernetes%20Load%20Balancer%20Service%20with%20Terraform/gsp233.sh
+
+sudo chmod +x gsp233.sh
+
+./gsp233.sh
+
+----------------------------------------------------------------------------------------------------------------
+
+11. Continuous Delivery with Jenkins in Kubernetes Engine 
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/gsp051.sh
+
+sudo chmod +x gsp051.sh
+
+./gsp051.sh
+
+----------------------------------------------------------------------------------------------------------------
+
+12. Working with Artifact Registry
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20Artifact%20Registry/gsp1076-1.sh
+
+sudo chmod +x gsp1076-1.sh
+
+./gsp1076-1.sh
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20Artifact%20Registry/gsp1076-2.sh
+
+sudo chmod +x gsp1076-2.sh
+
+./gsp1076-2.sh
+
+------------------------------------------------------------------------------------------------------------------
+
+13. Terraform Fundamentals 
+
+export ZONE=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Terraform%20Fundamentals/gsp156.sh
+
+sudo chmod +x gsp156.sh
+
+./gsp156.sh
+
+-------------------------------------------------------------------------------------------------------------------
+
+1. Deploy Kubernetes Application on Google Cloud
+
+export REPO=
+export DCKR_IMG=
+export TAG=
+export ZONE=
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Deploy%20Kubernetes%20Applications%20on%20Google%20Cloud%20Challenge%20Lab/gsp318.sh
+
+sudo chmod +x gsp318.sh
+
+./gsp318.sh
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+2. Build an Infrastructure with Terraform on Cloud 
+
+export BUCKET=
+export INSTANCE=
+export VPC=
+
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/gsp345.sh
 
 sudo chmod +x gsp345.sh
 
 ./gsp345.sh
 
-2.
+-------------------------------------------------------------------------------------------------------------------
+
+3. Implement DevOps Workflow in Google Cloud
+
+
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-1.sh
 
 sudo chmod +x gsp330-1.sh
 
 ./gsp330-1.sh
 
+Production Deployment Trigger:
+
+Property	Value
+Name	sample-app-prod-deploy
+Branch Pattern	^master$
+Build Configuration File	cloudbuild.yaml
+
+Development Deployment Trigger:
+
+Property	Value
+Name	sample-app-dev-deploy
+Branch Pattern	^dev$
+Build Configuration File	cloudbuild-dev.yaml
+
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-2.sh
 
 sudo chmod +x gsp330-2.sh
 
 ./gsp330-2.sh
+
+-------------------------------------------------------------------------------------------------------------------
+4. Implement CI/CD Pipelines on Google Cloud 
+
+export ZONE=
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20CI%20CD%20Pipelines%20on%20Google%20Cloud%20Challenge%20Lab/gsp393.sh
+
+sudo chmod +x gsp393.sh
+
+./gsp393.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
